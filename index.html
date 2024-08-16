@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="width: 100%">
+        <div class="imageshow-container">
+            <div class="imageClass fade">
+                <img src="assets/img1.jpg" style="width:100%">
+                <div style="text-align: center;">Image 1</div>
+            </div>
+
+            <div class="imageClass fade">
+                <img src="assets/img2.jpg" style="width:100%">
+                <div style="text-align: center;">Image 2</div>
+            </div>
+
+            <div class="imageClass fade">
+                <img src="assets/img3.jpg" style="width:100%">
+                <div style="text-align: center;">Image 3</div>
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentImage(1)"></span>
+            <span class="dot" onclick="currentImage(2)"></span>
+            <span class="dot" onclick="currentImage(3)"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
